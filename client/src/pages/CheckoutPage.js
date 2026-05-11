@@ -5,6 +5,7 @@ import { useStore } from '../context/Store';
 function CheckoutPage() {
   const { state, dispatch } = useStore();
   const [successMessage, setSuccessMessage] = useState('');
+  const [orderId, setOrderId] = useState('');
   const [error, setError] = useState('');
 
   const totalPrice = state.cart.reduce((sum, item) => sum + item.price * item.qty, 0);
@@ -35,9 +36,11 @@ function CheckoutPage() {
         totalPrice: totalPrice + totalPrice * 0.08 + 9.99,
       };
 
-      await api.post('/orders', order);
+      const { data } = await api.post('/orders', order);
       dispatch({ type: 'CLEAR_CART' });
+      setOrderId(data._id || '');
       setSuccessMessage('Order placed successfully!');
+      setError('');
     } catch (err) {
       setError(err.response?.data?.message || 'Checkout failed');
     }
@@ -50,6 +53,7 @@ function CheckoutPage() {
       {successMessage ? (
         <div>
           <p className="success-note">{successMessage}</p>
+          {orderId && <p className="muted">Order ID: {orderId}</p>}
         </div>
       ) : (
         <div>
