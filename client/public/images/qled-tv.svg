@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Samsung QLED TV</title>
+  <desc id="desc">A large smart television showing colorful cinematic panels on a media console.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6f8fb"/>
+      <stop offset=".55" stop-color="#b8c5d6"/>
+      <stop offset="1" stop-color="#263238"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00b4d8"/>
+      <stop offset=".42" stop-color="#7b2cbf"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <ellipse cx="450" cy="552" rx="320" ry="42" fill="#172026" opacity=".18"/>
+  <rect x="132" y="112" width="636" height="374" rx="24" fill="#111820"/>
+  <rect x="158" y="140" width="584" height="318" rx="10" fill="url(#screen)"/>
+  <path d="M158 378c104-98 214-128 330-91s200 4 254-99v270H158z" fill="#0f766e" opacity=".6"/>
+  <path d="M158 140l584 318H158z" fill="#ffffff" opacity=".12"/>
+  <rect x="412" y="486" width="76" height="52" fill="#242d35"/>
+  <rect x="304" y="532" width="292" height="22" rx="11" fill="#172026"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Fire TV Stick 4K</title>
+  <desc id="desc">A streaming stick and remote arranged on a bright entertainment-themed background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset=".48" stop-color="#ffb703"/>
+      <stop offset="1" stop-color="#2d3047"/>
+    </linearGradient>
+    <linearGradient id="device" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f3943"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <ellipse cx="482" cy="536" rx="292" ry="48" fill="#172026" opacity=".2"/>
+  <rect x="164" y="264" width="420" height="126" rx="34" fill="url(#device)" transform="rotate(-8 374 327)"/>
+  <rect x="566" y="285" width="112" height="54" rx="14" fill="#171f27" transform="rotate(-8 622 312)"/>
+  <rect x="682" y="294" width="60" height="34" rx="8" fill="#10161b" transform="rotate(-8 712 311)"/>
+  <text x="276" y="348" fill="#f5f7fa" font-family="Arial, sans-serif" font-size="52" font-weight="700" transform="rotate(-8 276 348)">fire tv</text>
+  <rect x="518" y="128" width="154" height="410" rx="58" fill="#1b232c" transform="rotate(14 595 333)"/>
+  <circle cx="590" cy="247" r="43" fill="#29333d"/>
+  <circle cx="590" cy="247" r="22" fill="#f5b83b"/>
+  <rect x="544" y="326" width="94" height="31" rx="15" fill="#394552" transform="rotate(14 591 342)"/>
+  <rect x="534" y="378" width="94" height="31" rx="15" fill="#394552" transform="rotate(14 581 394)"/>
+</svg>

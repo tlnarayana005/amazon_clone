@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Echo Dot smart speaker</title>
+  <desc id="desc">A compact charcoal smart speaker with a blue light ring on a warm shopping surface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7d783"/>
+      <stop offset="0.52" stop-color="#f6a33b"/>
+      <stop offset="1" stop-color="#264653"/>
+    </linearGradient>
+    <radialGradient id="speaker" cx="46%" cy="34%" r="66%">
+      <stop offset="0" stop-color="#5b6570"/>
+      <stop offset="0.72" stop-color="#232b32"/>
+      <stop offset="1" stop-color="#12181e"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <ellipse cx="450" cy="534" rx="260" ry="54" fill="#172026" opacity=".22"/>
+  <path d="M238 320c0-106 95-192 212-192s212 86 212 192v70c0 105-95 190-212 190s-212-85-212-190z" fill="url(#speaker)"/>
+  <ellipse cx="450" cy="312" rx="212" ry="190" fill="#303943"/>
+  <ellipse cx="450" cy="300" rx="172" ry="140" fill="#1b2229"/>
+  <ellipse cx="450" cy="292" rx="148" ry="112" fill="#2d3740"/>
+  <ellipse cx="450" cy="275" rx="132" ry="84" fill="none" stroke="#46c9ff" stroke-width="18"/>
+  <circle cx="360" cy="252" r="12" fill="#10161b"/>
+  <circle cx="540" cy="252" r="12" fill="#10161b"/>
+  <rect x="397" y="238" width="106" height="18" rx="9" fill="#10161b" opacity=".8"/>
+</svg>

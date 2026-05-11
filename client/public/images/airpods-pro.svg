@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Apple AirPods Pro</title>
+  <desc id="desc">White wireless earbuds and charging case on a clean blue-green surface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e7fbff"/>
+      <stop offset=".55" stop-color="#92dce5"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <ellipse cx="462" cy="533" rx="266" ry="50" fill="#172026" opacity=".16"/>
+  <rect x="280" y="286" width="340" height="202" rx="72" fill="#f9fbfc"/>
+  <path d="M308 330c18 34 65 52 142 52s124-18 142-52" fill="none" stroke="#d9e3ea" stroke-width="9" stroke-linecap="round"/>
+  <rect x="414" y="398" width="72" height="15" rx="8" fill="#c9d5dd"/>
+  <path d="M265 161c54 0 92 42 92 98v128c0 29-24 52-53 52s-53-23-53-52V250c-23-10-39-34-39-61 0-16 13-28 29-28z" fill="#fff"/>
+  <ellipse cx="293" cy="207" rx="44" ry="54" fill="#eef3f7"/>
+  <ellipse cx="300" cy="207" rx="25" ry="32" fill="#172026"/>
+  <path d="M635 161c-54 0-92 42-92 98v128c0 29 24 52 53 52s53-23 53-52V250c23-10 39-34 39-61 0-16-13-28-29-28z" fill="#fff"/>
+  <ellipse cx="607" cy="207" rx="44" ry="54" fill="#eef3f7"/>
+  <ellipse cx="600" cy="207" rx="25" ry="32" fill="#172026"/>
+</svg>
