@@ -64,6 +64,17 @@ cd server && npm run dev
 cd ../client && npm start
 ```
 
+The app runs at `http://localhost:3000` and the API runs at `http://localhost:5000`.
+
+## Demo Login
+
+When MongoDB is not running, use the built-in demo account:
+
+- Email: `demo@amazon.test`
+- Password: `password123`
+
+This demo mode supports browsing products, adding items to the cart, and placing checkout orders locally.
+
 ## Notes
 
 This is a developer portfolio project meant to demonstrate a production-style full-stack architecture, clean routing, auth, and persistent cart state.
